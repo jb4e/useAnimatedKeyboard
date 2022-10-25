@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios --simulator 'iPhone 14 Pro'",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "react": "18.1.0",
-    "react-native": "0.70.3",
+    "react-native": "0.69.5",
     "react-native-reanimated": "3.0.0-rc.3"
   },
   "devDependencies": {
